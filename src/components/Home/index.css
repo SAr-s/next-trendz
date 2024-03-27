@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 40px;
+}
+.home-heading {
+  font-size: 50px;
+  color: black;
+}
+.home-description {
+  color: #64748b;
+  font-size: 20px;
+}
+.shop-now-button {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+}

@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+.login-button {
+  background-color: blue;
+  border: 0px;
+
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+.main-logo {
+  height: 50px;
+  width: 200px;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list-item {
+  margin-right: 40px;
+  color: #64748b;
+}
